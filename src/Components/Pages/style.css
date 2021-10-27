@@ -1,0 +1,71 @@
+.container1{
+  
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+ }
+ .root{
+     
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        max-width: 450rem;
+        justify-content: center;
+ }
+ .root > .paper{
+            /* height: ; */
+            margin: 0 auto;
+            padding: 10px 50px;
+            background-color: rgb(51, 62, 63);
+            color: #fff;
+            text-align: center;
+ }
+ .heading{
+              color: #fff;
+             margin: 2rem;
+            }
+            .btnLogin{
+                
+         color: #fff;
+         background-color: #fcb812;
+         font-weight: bold;
+         border: transparent;
+         cursor: pointer;
+     }
+     
+     .btnLogin:hover{
+        color: rgb(255, 123, 0);
+         padding: -3px -3px -3px -3px;
+        color: #000;
+        transition: all 0.5s ease;
+         border: 1px solid rgb(255, 123, 0)
+    }
+ #required-mark{
+     float: left;
+     font-weight: bold;
+     color: #ff3636;
+     text-transform: uppercase;
+     font-size: 10px;
+ }
+ .profileInputForm1{
+     border: 1px solid blue;
+ }
+ .form-group{
+     margin-top: 1rem;
+ }
+ input{
+     padding: 10px 5px;
+     width: 100%;
+ }
+ .CreateNewAccount{
+     text-decoration: none;
+ }
+ .CreateNewAccount:hover{
+     text-decoration: underline;
+ }
+ .footer > img{
+  max-width: 100%;
+     image-resolution: initial;
+ }
